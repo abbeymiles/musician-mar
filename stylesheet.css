@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Cantarell); 
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Khula');
+
+
+@media screen and (max-width: 650px) {
+    .s {
+        display: none; 
+    }
+
+}
+
+body { 
+    background-color: white; 
+	}
+
+p { 
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: right; 
+	font-size: 24px; 
+    color: black;
+	
+}
+#b {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 250px;
+	size: 100%; 
+	color: #806000;
+    position: absolute;
+    top:0px;
+    left:-200px;
+    width: 40px;
+    height: 40px;
+}
+#zero {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 250px;
+	size: 100%; 
+	color: #806000;
+    position: absolute;
+    top:200px;
+    left:-200px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+#b2 {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 250px;
+	size: 100%; 
+	color: #806000; 
+    position: absolute;
+    top:400px;
+    left:-200px;
+    width: 40px;
+    height: 40px;
+}
+a:link { 
+	color: #806000; 
+}
+.mar-nav { 
+    text-align: left; 
+    font-family: 'Khula', sans-serif;
+	font-size: 42px; 
+    margin-top: 15px; 
+    letter-spacing: 10px; 
+    
+}
+.home-nav, .about-nav, .music-nav, .tour-nav, .personal { 
+    text-align: center; 
+	font-family: 'Khula', sans-serif;
+	font-size: 20px; 
+	margin-top: 25px; 
+}
+
+
+a:visited {
+    color: #806000;
+}
+
+.maria { 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 100vh; 
+	
+}
+.fixed {
+	position: fixed;
+	width: 100%;
+    z-index: 10000; 
+    background: rgba(255,255,255,0.3); 
+}
+
+
+h1 { 
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black; 
+    font-size: 55px; 
+    
+}
+
+.empty { 
+    line-height: 800%; 
+}
+img { 
+}
+.about, .music, .photos, .tour, .ocean-row, .contact { 
+    padding-top: 100px; 
+}
+.about-photo1 { 
+    text-align: center;
+}
+.about-photo2 { 
+    text-align: center; 
+}
+.about-row  {
+    text-align: center; 
+}
+.TCOY { 
+    padding-top: 50px; 
+ 
+    
+}
+.left { 
+    text-align: left; 
+}
+.right { 
+    text-align: right; 
+}
+.TCOY-BACK { 
+    width: 75%;
+    position: relative; 
+    top: -90px; 
+    right: -200px; 
+}
+.tour {
+/*    background-image: url("images/mar-short.mp4");*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+/*	height: 100vh; */
+	
+}
+
+.music-1 { 
+    margin-top: 70px; 
+}
+
+.left-bold { 
+    text-align: left; 
+    font-weight: 600; 
+    letter-spacing: 1.5px; 
+    
+}
+.shows { 
+    letter-spacing: 1.5px; 
+}
+.tour-1 { 
+    position: inherit; 
+}
+.tour-2, .tour-3, .tour-4 { 
+    margin-top: 100px; 
+}
+.ocean-row { 
+    }
+.ocean { 
+    background-image: url(images/ocean.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 25vh; 
+    position: relative; 
+    z-index: -1; 
+    }
+.small { 
+    font-size: 20px; 
+}
+.personal-one, .personal-two, .personal-three { 
+    text-align: center; 
+    margin-top: 50px; 
+}
+.photo-9, .photo-2b { 
+    background-color: #0C383B; 
+    height: 55vh; 
+}
+.photo-8 { 
+    background-color: #806000; 
+    height: 55vh; 
+}
+.personal-three { 
+    margin-bottom: 100px; 
+}
+.gif { 
+   height: 75%; 
+    width: 75%; 
+    margin-left: 50px; 
+}
+.box-fill { 
+    background-color: #0C383B; 
+    height: 15vh; 
+    margin-right: 60px; 
+    margin-bottom: 20px; 
+    letter-spacing: 5px; 
+    text-align: center; 
+    margin-top: 50px; 
+    
+}
+.box-fill2 { 
+    background-color: #806000; 
+    height: 15vh; 
+    margin-left: 80px; 
+    letter-spacing: 10px; 
+    text-align: center; 
+}
+h2 { 
+    color: white; 
+    font-family: 'Khula', sans-serif;
+	font-size: 30px;
+    
+}
+.personal { 
+    margin-bottom: 50px; 
+}
+
+#p1 { background-image: url(images/maria1.jpg); }
+#p2 { background-image: url(images/maria2.jpg); }
+#p3 { background-image: url(images/maria3.jpg); }
+#p4 { background-image: url(images/maria4.jpg); }
+#p5 { background-image: url(images/maria5.jpg); }
+/*#p6 { background-image: url(images/maria6.jpg); }*/
